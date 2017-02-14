@@ -30,11 +30,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBOutlet weak var handleButtonPress: UIButton!
+    
 
 
     
-    @IBAction func handleButtonPress(_ sender: Any) {
+    @IBAction func handleButtonPress(_ sender: UIButton) {
         
         if canClear {
             resultLabel.text = ""

@@ -37,9 +37,6 @@
                                 <state key="normal" title="7">
                                     <color key="titleShadowColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HyB-GE-K3X"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpZ-dS-slV">
                                 <rect key="frame" x="111" y="186" width="70" height="90"/>
@@ -188,7 +185,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="handleButtonPress" destination="5k2-OC-rzH" id="70R-4f-XIj"/>
+                        <outlet property="handleButtonPress" destination="804-BC-hpt" id="zj5-jU-bae"/>
                         <outlet property="resultLabel" destination="09h-bB-Gbn" id="Fgv-Ht-7bD"/>
                     </connections>
                 </viewController>
